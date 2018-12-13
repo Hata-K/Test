@@ -4,3 +4,9 @@ C:\Users\Dell\RiderProjects\test2_assignment3\test2_assignment3\obj\Debug\test2_
 C:\Users\Dell\RiderProjects\test2_assignment3\test2_assignment3\obj\Debug\test2_assignment3.csproj.CoreCompileInputs.cache
 C:\Users\Dell\RiderProjects\test2_assignment3\test2_assignment3\obj\Debug\test2_assignment3.exe
 C:\Users\Dell\RiderProjects\test2_assignment3\test2_assignment3\obj\Debug\test2_assignment3.pdb
+C:\Users\Dell\Documents\GitHub\Test\test2_assignment3\test2_assignment3\bin\Debug\test2_assignment3.exe
+C:\Users\Dell\Documents\GitHub\Test\test2_assignment3\test2_assignment3\bin\Debug\test2_assignment3.pdb
+C:\Users\Dell\Documents\GitHub\Test\test2_assignment3\test2_assignment3\obj\Debug\test2_assignment3.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\Test\test2_assignment3\test2_assignment3\obj\Debug\test2_assignment3.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\Test\test2_assignment3\test2_assignment3\obj\Debug\test2_assignment3.exe
+C:\Users\Dell\Documents\GitHub\Test\test2_assignment3\test2_assignment3\obj\Debug\test2_assignment3.pdb
