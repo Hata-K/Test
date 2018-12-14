@@ -4,6 +4,10 @@
     <list default="true" id="672216fc-44bd-46e2-bb22-45665985ad78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.test2_assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test2_assignment3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2_assignment3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test2_assignment3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2_assignment3/bin/Debug/test2_assignment3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/test2_assignment3/bin/Debug/test2_assignment3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2_assignment3/bin/Debug/test2_assignment3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test2_assignment3/bin/Debug/test2_assignment3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2_assignment3/obj/Debug/test2_assignment3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/test2_assignment3/obj/Debug/test2_assignment3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2_assignment3/obj/Debug/test2_assignment3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test2_assignment3/obj/Debug/test2_assignment3.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,23 +58,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="13" />
-          <entry key="txt" value="4" />
+          <entry key="cs" value="1105" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="13" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="C#" value="1105" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="targets" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="MsBuild targets file" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -81,27 +87,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test2_assignment3/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-840">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="1231">
+              <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
               <folding>
-                <marker date="1544791667138" expanded="true" signature="6:83" ph="..." />
-                <marker date="1544791667138" expanded="true" signature="112:4020" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="141:4018" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="211:4012" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="701:985" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="1164:1631" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="1237:1590" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="1318:1469" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="1494:1572" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="2032:2452" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="2090:2438" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="2231:2317" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="2342:2420" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="2484:2573" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="2692:2809" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="3143:3262" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="3578:3727" ph="{...}" />
-                <marker date="1544791667138" expanded="true" signature="3744:3939" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="6:111" ph="..." />
+                <marker date="1544801111530" expanded="true" signature="140:5434" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="166:208" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="260:312" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="339:5432" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="392:2413" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="801:898" ph="/* var end = new List&lt;string&gt;(); ... */" />
+                <marker date="1544801111530" expanded="true" signature="951:1239" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="2036:2239" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="2472:2541" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="2710:3403" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="2997:3181" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="3198:3393" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="3517:4020" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="3705:4010" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="3778:3969" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="4158:4360" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="4233:4350" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="4487:5426" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="4950:5267" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="5008:5253" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="5149:5235" ph="{...}" />
+                <marker date="1544801111530" expanded="true" signature="5299:5388" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -129,7 +140,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1939" />
@@ -211,7 +222,7 @@
       <workItem from="1544720098218" duration="5491000" />
       <workItem from="1544740105680" duration="259000" />
       <workItem from="1544789060917" duration="2012000" />
-      <workItem from="1544791332038" duration="333000" />
+      <workItem from="1544791332038" duration="9504000" />
     </task>
     <task id="LOCAL-00001" summary="Rnd">
       <created>1544791378099</created>
@@ -220,11 +231,25 @@
       <option name="project" value="LOCAL" />
       <updated>1544791378099</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rnd2">
+      <created>1544791769967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544791769967</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rnd3">
+      <created>1544792066648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544792066648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18621000" />
+    <option name="totallyTimeSpent" value="27792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,27 +261,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-8" y="-8" width="1551" height="879" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16979866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16968478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Change Signature" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="769" y="30" width="767" height="833" id="Run" order="2" type="WINDOWED" weight="0.37525988" />
-      <window_info anchor="bottom" x="23" y="303" width="1490" height="258" id="Debug" order="3" weight="0.34615386" />
+      <window_info active="true" anchor="bottom" x="769" y="30" width="767" height="833" id="Run" order="2" sideWeight="0.49966466" visible="true" weight="0.36193028" />
+      <window_info anchor="bottom" x="23" y="303" width="1490" height="258" id="Debug" order="3" weight="0.3458445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32952183" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" x="1" y="30" width="767" height="833" id="Build" order="14" type="WINDOWED" weight="0.32848233" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50067115" side_tool="true" weight="0.36241612" />
+      <window_info anchor="bottom" x="1" y="30" width="767" height="833" id="Build" order="14" weight="0.32573727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -264,6 +290,32 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16968478" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" x="769" y="30" width="767" height="833" id="Run" order="2" sideWeight="0.49932885" weight="0.36241612" />
+      <window_info anchor="bottom" x="23" y="303" width="1490" height="258" id="Debug" order="3" weight="0.34615386" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50067115" side_tool="true" weight="0.36241612" />
+      <window_info anchor="bottom" x="1" y="30" width="767" height="833" id="Build" order="14" weight="0.3261745" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -311,7 +363,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rnd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rnd" />
+    <MESSAGE value="Rnd2" />
+    <MESSAGE value="Rnd3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rnd3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -329,29 +383,41 @@
         <state relative-caret-position="-360" />
       </provider>
     </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="4193" column="4" selection-start-line="4193" selection-start-column="4" selection-end-line="4193" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test2_assignment3/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="1231">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
           <folding>
-            <marker date="1544791667138" expanded="true" signature="6:83" ph="..." />
-            <marker date="1544791667138" expanded="true" signature="112:4020" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="141:4018" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="211:4012" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="701:985" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="1164:1631" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="1237:1590" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="1318:1469" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="1494:1572" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="2032:2452" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="2090:2438" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="2231:2317" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="2342:2420" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="2484:2573" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="2692:2809" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="3143:3262" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="3578:3727" ph="{...}" />
-            <marker date="1544791667138" expanded="true" signature="3744:3939" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="6:111" ph="..." />
+            <marker date="1544801111530" expanded="true" signature="140:5434" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="166:208" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="260:312" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="339:5432" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="392:2413" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="801:898" ph="/* var end = new List&lt;string&gt;(); ... */" />
+            <marker date="1544801111530" expanded="true" signature="951:1239" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="2036:2239" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="2472:2541" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="2710:3403" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="2997:3181" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="3198:3393" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="3517:4020" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="3705:4010" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="3778:3969" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="4158:4360" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="4233:4350" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="4487:5426" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="4950:5267" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="5008:5253" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="5149:5235" ph="{...}" />
+            <marker date="1544801111530" expanded="true" signature="5299:5388" ph="{...}" />
           </folding>
         </state>
       </provider>
