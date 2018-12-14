@@ -13,20 +13,20 @@ namespace test2_assignment3
                 
         public static void Main(string[] args)
         {
-            DirectoryInfo sourceDir = new DirectoryInfo("source.csv");
+            var sourceDir = new DirectoryInfo("source.csv");
 
             var fileLines = File.ReadAllLines(sourceDir.ToString());
             var lineSum = File.ReadAllLines(sourceDir.ToString()).Length;
 
-            List<String> name = new List<String>();
-            List<String> nameEdited = new List<String>();
-            List<String> dob = new List<String>();
-            List<String> start = new List<String>();
-            List<String> end = new List<String>();
+            var name = new List<string>();
+            var nameEdited = new List<string>();
+            var dob = new List<string>();
+            var start = new List<string>();
+            var end = new List<string>();
 
-            for (int i = 1; i <= (lineSum - 1); i++)
+            for (var i = 1; i <= (lineSum - 1); i++)
             {
-                string[] eachLine = fileLines[i].Split(',');
+                var eachLine = fileLines[i].Split(',');
                 name.Add(eachLine[1]);
                 nameEdited.Add(eachLine[1]);
                 dob.Add(eachLine[2]);
@@ -36,10 +36,10 @@ namespace test2_assignment3
 
             var nameDuplicates = nameEdited.GroupBy(i=>i).Where(g => g.Count() > 1).Select(g => g.Key);
 
-            int count = 1;
+            var count = 1;
             foreach (var d in nameDuplicates)
             {
-                for (int i = 0; i < nameEdited.Count; i++)
+                for (var i = 0; i < nameEdited.Count; i++)
                 {
                 
                     if (nameEdited[i] == (d))
@@ -54,45 +54,46 @@ namespace test2_assignment3
                 }
                 count = 1;
             }
-            //An int arry is initiated to store 3 random number from 1 to 77;
-            int[] indexes = new int[3];
+            //An int array is initiated to store 3 random number from 1 to 77;
+            var indexes = new int[3];
             
-            //Random funtion is initiated.
-            Random rnd = new Random();
+            //Random function is initiated.
+            var rnd = new Random();
             //Number is picked from 1 to 77
-            int index = rnd.Next(1, 77);
+            var index = rnd.Next(1, 77);
             //0th place is placed with that random number
             indexes[0] = index;
-            
-            for (int i = 1; i < 3; i++)
+            try
             {
-                int ind = rnd.Next(1, 77);
+                for (var i = 1; i < 3; i++)
+                {
+                    var ind = rnd.Next(1, 77);
                 
-                if (name[indexes[(i-1)]] != name[ind])
-                {
-                    indexes[i] = ind;
-                }
-                else
-                {
-                    continue;
+                    if (name[indexes[(i-1)]] != name[ind])
+                    {
+                        indexes[i] = ind;
+                    }
+                    else
+                    {
+                        continue;
+                    }
                 }
             }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
 
-            //DISPLAYING THE SELCETED NAMES TO THE USER
+            //DISPLAYING THE SELECTED NAMES TO THE USER
             count = 1;
             foreach (var s in indexes)
             {
                 Console.WriteLine(count+": "+nameEdited[s]);
                 count += 1;
             }
-            var kList = new List<KeyValuePair<string, DateTime>>();
+            var kList = (from t in indexes let oDate = Convert.ToDateTime(start[t]) select new KeyValuePair<string, DateTime>(nameEdited[t], oDate)).ToList();
 
-            for (int i = 0; i < indexes.Length; i++)
-            {
-                DateTime oDate = Convert.ToDateTime(start[indexes[i]]);
-
-                kList.Add(new KeyValuePair<string, DateTime>(nameEdited[indexes[i]],oDate));
-            }
             kList.Sort((a, b) => (b.Value.CompareTo(a.Value)));
             kList.Reverse();
             Console.WriteLine("\n");
@@ -104,8 +105,8 @@ namespace test2_assignment3
             Console.WriteLine("\n");
 
             Console.WriteLine("Who's the first president to run?...");
-            int userInput = Convert.ToInt32(Console.ReadLine());
-            int userInputIndex = userInput - 1;
+            var userInput = Convert.ToInt32(Console.ReadLine());
+            var userInputIndex = userInput - 1;
                         
             if (nameEdited[indexes[userInputIndex]] == kList[0].Key)
             {
@@ -115,7 +116,7 @@ namespace test2_assignment3
             else
             {
                 Console.WriteLine("Oops! Wrong...");
-                Console.WriteLine("The correct answer is: {0} --> {1}", kList[0].Key, kList[0].Value.ToString("dd/MM/yyyy"));
+                Console.WriteLine("The correct answer is: {0} --> {1:dd/MM/yyyy}", kList[0].Key, kList[0].Value);
             }
 
             //End of program.
