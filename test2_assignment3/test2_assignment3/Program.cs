@@ -38,16 +38,9 @@ namespace test2_assignment3
             {
                 for (var i = 0; i < nameEdited.Count; i++)
                 {
-                
-                    if (nameEdited[i] == (d))
-                    {
-                        nameEdited[i] = (nameEdited[i] +"-TERM-"+ count);
-                        ++count;
-                    }
-                    else
-                    {
-                        continue;
-                    }
+                    if (nameEdited[i] != (d)) continue;
+                    nameEdited[i] = (nameEdited[i] +"-TERM-"+ count);
+                    ++count;
                 }
                 count = 1;
             }
@@ -69,10 +62,6 @@ namespace test2_assignment3
                     if (name[indexes[(i-1)]] != name[ind])
                     {
                         indexes[i] = ind;
-                    }
-                    else
-                    {
-                        continue;
                     }
                 }
             }
